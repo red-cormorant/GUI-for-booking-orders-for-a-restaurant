@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.FXMLDocumentController">
+   <children>
+      <AnchorPane layoutX="80.0" layoutY="41.0" prefHeight="85.0" prefWidth="722.0">
+         <children>
+            <Label layoutX="7.0" layoutY="14.0" prefHeight="58.0" prefWidth="709.0" text="     Restaurant &quot;Les joyeux pommes de terre&quot;">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <AnchorPane layoutX="313.0" layoutY="126.0" prefHeight="221.0" prefWidth="225.0">
+         <children>
+            <ChoiceBox fx:id="choiceBox" layoutX="38.0" layoutY="77.0" prefWidth="150.0">
+                
+            </ChoiceBox> 
+            <Button layoutX="83.0" layoutY="130.0" mnemonicParsing="false" onAction="#ChangeScreenButtonPushed" text="Select">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <Label layoutX="45.0" layoutY="29.0" prefHeight="21.0" prefWidth="136.0" text="Vizualizare tabele:" textAlignment="CENTER">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button layoutX="388.0" layoutY="355.0" mnemonicParsing="false" onAction="#changeToInterogari" prefHeight="42.0" prefWidth="75.0" text="Interogari" />
+   </children>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
+</AnchorPane>
